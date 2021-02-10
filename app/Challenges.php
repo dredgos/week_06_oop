@@ -14,8 +14,8 @@ class Challenges
         /* uncomment one at a time */
 
         // $this->howdy(); // 01
-        $this->wombat(); // 02
-        // $this->stringyRedux(); // 03
+        // $this->wombat(); // 02
+        $this->stringyRedux(); // 03
         // $this->shopping(); // 04
 
         /* kick off tricksy challenges */
