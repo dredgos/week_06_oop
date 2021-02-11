@@ -13,10 +13,10 @@ class Challenges
         /* load challenges */
         /* uncomment one at a time */
 
-        // $this->howdy(); // 01
+        $this->howdy(); // 01
         // $this->wombat(); // 02
         // $this->stringyRedux(); // 03
-        $this->shopping(); // 04
+        // $this->shopping(); // 04
 
         /* kick off tricksy challenges */
 

@@ -13,8 +13,13 @@ class Person
         $this->lname = $lname;
     }
 
+    public function fullName()
+    {
+        return "{$this->fname} {$this->lname}";
+    }
+
     public function sayHelloTo($person)
     {
-        return "Hello {$person->fname} {$person->lname}";
+        return "Hello ". $person->fullName();
     }
 }
