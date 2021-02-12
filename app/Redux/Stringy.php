@@ -13,7 +13,7 @@ class Stringy
 
     public function lower()
     {
-        strtolower($this->string);
+        $this->string = strtolower($this->string);
         return $this;
     }
 
