@@ -11,7 +11,7 @@ class Challenges
         /* load challenges */
         /* uncomment one at a time */
 
-        // $this->recipe(); // Tricksy 01
+        $this->recipe(); // Tricksy 01
         // $this->superString(); // Tricksy 02
     }
 
@@ -54,6 +54,7 @@ class Challenges
          *
          *  Put them in a bowl, mix them together, cook for a bit. Job's a good'un"
          */
+
 
         // we can list dietary information
         dump($cake->dietary()); // "gluten, dairy, animal produce"
